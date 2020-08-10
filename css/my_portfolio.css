@@ -19,7 +19,7 @@ a{
 }
 
 .part{
-    min-height:100vh;
+    height:auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -52,7 +52,8 @@ a{
  .nav-link:hover {
     background-color: #f1f1f1;
     border-radius: 20px;
-    color: #ffffff;    
+    color: #ffffff;  
+       
 }
 
 .nav-item a:focus{
@@ -64,7 +65,7 @@ a{
 
 
 #home{
-    background-image: url("../img/cover.jpg");
+    background-image: url("../Img/back.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -187,7 +188,7 @@ a{
 .services{
     flex-direction: column;
     min-height: 80vh;
-    padding: 10rem 5rem;
+    padding: 15rem 10rem;
 }
 .services .services-header {
     width: 100%;
@@ -397,7 +398,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 20vh;
     background-color: #ecf8f8;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -406,7 +407,7 @@ a{
 }
 
 .footer h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #283618;
     letter-spacing: 2px;
     line-height: 2.2rem;
@@ -418,15 +419,15 @@ a{
     flex-direction: row;
 }
 .footer h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 2px;
     font-style: italic;
     font-weight: bolder;
 }
 
 .footer img{
-    height: 25px;
-    width: 25px;
+    height: 40px;
+    width: 40px;
     background-color:#606c38;
     margin: 3px;
     padding: 3px;
